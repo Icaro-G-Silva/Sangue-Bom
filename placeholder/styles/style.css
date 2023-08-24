@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700;6..12,900&display=swap');
+
+body{
+  background-color: #fafafa;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  flex-direction: column;
+  line-height: 10px;
+  margin-left: 1.5rem;
+}
+
+.developers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+.developers-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  padding-left: 5rem;
+}
+
+.wrapper {
+  background-color: red;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.WIP {
+  font-size: 56px;
+  line-height: 10px;
+  font-weight: 500;
+}
+
+span{
+  color: #a1caff;
+}
+
+img{
+  width: 620px;
+}
+
+li a {
+  font-size: 1.8rem;
+}
+
+a {
+  color: black;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a1caff;
+  cursor: pointer;
+}
+
+footer{
+  padding: 15px;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fafafa;
+  text-align: right;
+  z-index: -2;
+}
+
+svg {
+  display: inline-block;
+  margin-top: -5rem;
+  z-index: -1;
+}
