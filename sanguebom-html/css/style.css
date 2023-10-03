@@ -852,7 +852,6 @@ button {
     content: "";
     left: 0;
     right: 0;
-    background: url(../images/corona_icon.png);
     bottom: -40px;
     width: 80px;
     height: 81px;
@@ -926,7 +925,6 @@ button {
     position: absolute;
     content: "";
     right: 4%;
-    background: url(../images/case.png);
     top: 34%;
     width: 120px;
     height: 121px;
@@ -1010,14 +1008,13 @@ button {
     position: absolute;
     content: "";
     left: 4%;
-    background: url(../images/case.png);
     top: 3%;
     width: 120px;
     height: 121px;
     background-repeat: no-repeat;
 }
 .cevery_white {background: #fff;}
-.cevery_bg {background: url(../images/ever_bg.jpg);
+.cevery_bg {background: url(../images/tirandosangue2.jpg);
 background-size: cover;
 background-repeat: no-repeat; background-position: center;
 padding: 80px 0;
@@ -1076,6 +1073,7 @@ padding: 80px 0;
 
 .footer {
     padding-top: 80px;
+
     background: #111111;
     text-align: center;
 }
